@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮一"
+        android:textSize="16dp"/>
+    
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中心按钮"
+        android:textSize="16dp"
+        android:layout_below="@id/button1"
+        android:layout_toRightOf="@id/button1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮二"
+        android:textSize="16dp"
+        android:layout_below="@id/button"
+        android:layout_toLeftOf="@id/button"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮三"
+        android:textSize="16dp"
+        android:layout_above="@id/button"
+        android:layout_toRightOf="@id/button"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮四"
+        android:textSize="16dp"
+        android:layout_below="@id/button"
+        android:layout_toRightOf="@id/button"/>
+</RelativeLayout>
